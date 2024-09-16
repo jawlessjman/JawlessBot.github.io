@@ -6,7 +6,7 @@
 }
 
 /* Make the container take up the full height of the viewport */
-html, body {
+body {
   height: 100%;
 }
 
@@ -15,6 +15,10 @@ body {
   background-color: #b3d4fc;
   flex-direction: column;
   min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
 }
 
 /* Flexbox container */
