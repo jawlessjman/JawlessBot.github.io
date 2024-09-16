@@ -1,0 +1,42 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make the container take up the full height of the viewport */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background-color: #b3d4fc;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Flexbox container */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Ensure main content grows to fill the space */
+main {
+  flex-grow: 1;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+/* Footer styling */
+footer {
+  background-color: #a2c3eb;
+  padding: 10px;
+  text-align: center;
+}
